@@ -1,0 +1,19 @@
+<p>
+  add-category works!
+</p>
+
+<form (submit)="saveCategory()">
+  
+        <input [(ngModel)]="category.category_name" name="name" matInput placeholder="Category name......" />
+    
+      
+
+  <button type="submit" class="btn btn-primary pull-right">
+    Save
+  </button>
+  <button [routerLink]="['/companies']" class="btn btn-danger pull-right">
+    Cancel
+  </button>
+  <div class="clearfix"></div>
+</form>
+
