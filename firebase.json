@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "spare-parts-frontend",
+    "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
